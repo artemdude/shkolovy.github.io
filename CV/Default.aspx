@@ -3,8 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Artem Shkolovyi .Net Developer</title>
-    <%--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>--%>
+    <title>Artem Shkolovyi - .Net Developer</title>
+
     <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
     <script src="Scripts/tinysort.js" type="text/javascript"></script>
     <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
@@ -96,12 +96,12 @@
                 My <span style="font-size: 1.3em;">first web site</span> was created when I was
                 at school. Since that time web development has become my hobby, then an additional
                 income, and now it is my main job. <span style="font-size: 1.6em;">Programming is my
-                    obsession.</span> During the time of working in various outsorsing companies
+                    obsession.</span> During the time of working in various outsourcing companies
                 I have got experience in development, testing, refactoring and usability design.
                 I participated in developing of closed CMS systems and web sites which were designed
                 for a wide audience.
                 <br />
-                I want to work on <span style="font-size: 1.3em;">really interesting</span> projects!
+                I want to work with <span style="font-size: 1.3em;">really interesting</span> projects!
                 If you have one, <strong><a href="mailto:artemdude@gmail.com">contact me</a></strong>!
                 <div id="odesk" style="text-align: center">
                     <a href="https://www.odesk.com/users/~~ef5777505a831587">
@@ -258,6 +258,7 @@
                             Spring.NET.
                         </div>
                     </div>
+                    <span style="margin:0 5px 0 -21px;">&rarr;</span><a href="http://ua.linkedin.com/in/shkolovy">More about my expirience on LinkedIn</a>
                     <div style="clear: both;">
                     </div>
                 </div>
@@ -267,10 +268,13 @@
                     <div style="clear: both;">
                     </div>
                     <img style="margin: 0 10px 10px 0; float: left;" src="Img/study.jpg" />
-                    Refactoring is a disciplined technique for restructuring an existing body of code,
-                    altering its internal structure without changing its external behavior. Its heart
-                    is a series of small behavior preserving transformations. Each transformation does
-                    little, but a sequence of transformations can produce a significant restructuring.
+                  I graduated the National Aviation University by specialty "Faculty of Telecommunication and Security Information». But honestly, it was boring :)
+                  <br /><br />
+I can't imagine my life without informational technologies. Books, blogs, workshops, conferences - this is my main source of knowledge. Sometimes I publish articles to <a href="http://shkolovy.com/blog/">my blog</a> or begin to code some small program, just for fun.
+But the most valuable knowledge I get on my job, when I have some dispute with my colleagues or when I encounter with some new technology which is need to be learnt and introduced into the project.
+                  <br />
+                 <div style=" font-style:italic; text-align:right; padding-top:5px;">"Live and learn..."</div>  
+                  
                     <div style="clear: both;">
                     </div>
                 </div>
@@ -295,7 +299,7 @@
         <div id="footer">
             I
             <img src="Img/heart.png" />
-            to code...
+            coding...
         </div>
     </div>
     </form>

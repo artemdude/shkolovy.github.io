@@ -56,11 +56,11 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Img\220px-Heart_corazón.svg.png" />
+    <Content Include="Img\work.jpg" />
     <Content Include="Img\hobby.jpg" />
     <Content Include="Img\odesk_hire_me.jpg" />
     <Content Include="Img\paragraph.png" />
     <Content Include="Img\study.jpg" />
-    <Content Include="Img\work.jpg" />
     <Content Include="Img\email.png" />
     <Content Include="Img\facebook.png" />
     <Content Include="Img\heart.png" />
@@ -79,7 +79,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account\ChangePassword.aspx.cs">
@@ -121,13 +120,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
