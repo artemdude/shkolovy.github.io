@@ -1,5 +1,23 @@
 ﻿$(function () {
 
+	function getMyAge(){
+	    var MILISECONDS_IN_YEAR = 31536000000,
+	        now = new Date(),
+	        myBirthDay = new Date('1988/10/03');
+
+	    var diff = Math.abs(now - myBirthDay);
+	    var myAge = Math.floor(diff / MILISECONDS_IN_YEAR);
+
+	    return myAge;
+	}
+
+	function getMyAgeInBinary(){
+	    return getMyAge().toString(2);
+	}
+
+
+	$('#myAge').attr('title', getMyAge()).text(getMyAgeInBinary());
+
     // create a style switch button
     $('#ChangeCloudAppearance').toggle(
 		        function () {
