@@ -3,7 +3,7 @@
 <head>
     <title>Artem Shkolovy - .Net Developer</title>
     <meta content='Artem Shkolovy' name='Author'/>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link href="Styles/Site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -146,16 +146,16 @@
         </div>
     </div>
     <script>
-	    $(function () {
-		    var MILISECONDS_IN_YEAR = 31536000000,
-		        now = new Date(),
-		        myBirthDay = new Date('1988/10/03'),
-		        diff = Math.abs(now - myBirthDay),
-		        myAge = Math.floor(diff / MILISECONDS_IN_YEAR),
-		        binaryMyAge = myAge.toString(2);
+        $(function () {
+            var MILISECONDS_IN_YEAR = 31536000000,
+                now = new Date(),
+                myBirthDay = new Date('1988/10/03'),
+                diff = Math.abs(now - myBirthDay),
+                myAge = Math.floor(diff / MILISECONDS_IN_YEAR),
+                binaryMyAge = myAge.toString(2);
 
-			$('#myAge').attr('title', getMyAge()).text(binaryMyAge);
-		});
+            $('#myAge').attr('title', getMyAge()).text(binaryMyAge);
+        });
     </script
 </body>
 </html>
